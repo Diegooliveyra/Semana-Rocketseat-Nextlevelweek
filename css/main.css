@@ -1,5 +1,11 @@
 :root {
   --title-color: #322153;
+  --primary-color: #34cb79;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -14,59 +20,11 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3 {
-  font-family: 'Ubuntu', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Ubuntu", sans-serif;
   color: var(--title-color);
   font-weight: 700;
 }
 
-.page-home {
-  height: 100vh;
-  background-image: url(../assets/home-background.svg);
-  background-position: 35vw bottom;
-  background-repeat: no-repeat;
-}
-
-.page-home .content {
-  width: 90%;
-  height: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.page-home .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 48px;
-}
-
-.page-home .header a {
-  display: flex;
-  color: var(--title-color);
-  font-weight: 700;
-}
-
-.page-home .header span {
-  background-image: url(../assets/log-in.svg);
-  display: flex;
-  width: 20px;
-  height: 20px;
-  margin-right: 16px;
-}
-
-.page-home .main {
-  max-width: 560px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-}
-
-.page-home .main h1 {
-  font-size: 57px;
-
-}
