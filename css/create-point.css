@@ -22,6 +22,83 @@
   background-image: url(../assets/arrow-left.svg);
   background-repeat: no-repeat;
   width: 20px;
-  height: 20px;
+  height: 24px;
   margin-right: 16px;
+}
+
+.form {
+  background-color: White;
+  padding: 64px;
+  border-radius: 8px;
+  max-width: 730px;
+  margin: 80px auto;
+}
+
+.form h1 {
+  font-size: 36px;
+}
+
+.form fieldset {
+  margin-top: 48px;
+  border: 0;
+}
+
+.form legend h2 {
+  margin-bottom: 48px;
+}
+
+.form .field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  flex: 1;
+}
+
+.form .field-group {
+  display: flex;
+}
+
+.form input, .form select {
+  border: 0;
+  border-radius: 8px;
+  background-color: #f0f0f5;
+  padding: 16px 24px;
+  font-size: 16px;
+}
+
+.form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.form .field-group .field + .field {
+  margin-left: 24px;
+}
+
+.form label {
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+.form button {
+  width: 260px;
+  height: 56px;
+  background-color: var(--primary-color);
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 40px;
+  transition: background-color 400ms;
+}
+
+.form button:hover {
+  background-color: #2fb86e;
 }
