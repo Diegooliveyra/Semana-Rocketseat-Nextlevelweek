@@ -17,6 +17,7 @@
 #modal .content {
   color: white;
   width: 420px;
+  margin: 16px;
 }
 
 #modal .header {
