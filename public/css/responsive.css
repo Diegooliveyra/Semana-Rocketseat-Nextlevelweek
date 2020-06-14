@@ -1,10 +1,8 @@
-@media (max-width:768px) {
-
-  
-/*Page search results*/
+@media (max-width: 768px) {
+  /*Page search results*/
 
   .page-search-result .cards {
-    grid-template-columns:  1fr;
+    grid-template-columns: 1fr;
   }
 
   .page-search-result .header a {
@@ -29,7 +27,7 @@
 
   .items-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
     gap: 16px;
   }
   .form .field-group {
@@ -37,19 +35,17 @@
   }
 
   .form .field-group .field + .field {
-
     margin-left: 0;
+  }
 }
 
-}
-
-@media (max-width:900px) {
+@media (max-width: 900px) {
   .page-home {
     background-position: 70vw bottom;
   }
   .page-home .content {
-   align-items: center;
-   text-align: center;
+    align-items: center;
+    text-align: center;
   }
   .page-home .header a {
     position: absolute;
@@ -63,21 +59,21 @@
   .page-home .main h1 {
     font-size: 40px;
   }
-  
+
   .page-home .main p {
     font-size: 18px;
     line-height: 28px;
   }
+}
 
-
-@media (min-width:1700px) {
+@media (min-width: 1700px) {
   .page-home {
     background-position-x: 40vw;
   }
 }
 
-@media (max-height:760px) {
+@media (max-height: 760px) {
   .page-home {
-    background-position-y: 130px;
+    background-position-y: 330px;
   }
 }

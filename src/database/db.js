@@ -9,7 +9,7 @@ module.exports = db
 
 // ultilizar o objeto de banco de dados, para nossas operações
 
-// db.serialize(() => {
+  db.serialize(() => {
 //   //Com comandos sql eu vou:
 
 //   //1 - criar uma tabela
@@ -71,11 +71,11 @@ module.exports = db
 
 //   //4 - deletar um dado na tabela
 
-//   // db.run(`DELETE FROM places WHERE id = ?`,[1], function(err){
-//   //  if (err) {
-//   //    return console.log("erro");
-//   //  }
-//   //  console.log("Registro deletados com sucesso")
-//   //})
-
-// });
+ //    db.run(`DELETE FROM places WHERE id = ?`,[4], function(err){
+ //     if (err) {
+ ////       return console.log("erro");
+//      }
+ //     console.log("Registro deletados com sucesso")
+ //   })
+//
+ });
